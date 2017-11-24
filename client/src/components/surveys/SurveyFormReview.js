@@ -10,13 +10,13 @@ const SurveyFormReview =  ({ onCancel, formValues,submitSurvey,history }) =>{
 	const fieldlist = _.map(formFields, ({name,label}) =>{
 		return(
 			<div key={name}>
-				<label>{label}</label>
+				<label style={{fontSize:'1.2rem'}}>{label}</label>
 				<div>{formValues[name]}</div>
 			</div>
 		)
 	})
 	return(
-		<div>
+		<div className="container white-text" style={{marginTop:'10vh'}}>
 			<h5>Please Confirm your entries</h5>
 			{fieldlist}
 			<button className="yellow darken-3 white-text btn-flat" onClick={onCancel} >

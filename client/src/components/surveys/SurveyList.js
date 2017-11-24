@@ -11,7 +11,7 @@ class SurveyList extends Component {
   console.log(this.props.surveys)
   if(this.props.surveys.length<=0){
     return (
-      <div style={{textAlign:'center',fontSize:'x-large'}}>
+      <div className="white-text" style={{textAlign:'center',fontSize:'x-large',marginTop:'250px'}}>
         <p>Please Create A Survey</p>
         <p>By Clicking on the Red button on the right-hand side</p>
       </div>
