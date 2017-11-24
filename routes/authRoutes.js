@@ -1,5 +1,6 @@
 const passport = require('passport');
 
+// Authentication Routes
 
 module.exports= (app) => {
 	app.get(

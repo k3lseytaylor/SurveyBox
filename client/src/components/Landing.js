@@ -1,12 +1,14 @@
 import React from 'react';
+import image from '../assets/Background.jpg'
 
 const Landing = () =>{
 	return(
 		<div style= {{ textAlign:'center'}}>
 			<h1>
-			  Emaily!	
+			  SurveyBox!	
 			</h1>
-			Collect feedback form your users
+			Collect feedback from your users
+			
 		</div>
 	);
 };
