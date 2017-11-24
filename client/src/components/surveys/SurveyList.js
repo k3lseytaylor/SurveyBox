@@ -42,7 +42,7 @@ class SurveyList extends Component {
   render() {
   	console.log(this.props);
     return (
-      <div>
+      <div className="container">
        {this.renderSurveys()}
       </div>
     );
